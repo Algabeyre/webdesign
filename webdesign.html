@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Design & Development</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="hero">
+        <nav>
+            <img src="logo.webp" alt="">
+  <div class="menu-icon">
+            <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+        </div>
+            <ul id="menuList">
+                <li><a href="">Latest</a></li>
+                <li><a href="">Modern</a></li>
+                <li><a href="">Contemporary</a></li>
+                <li><a href="">Affordable</a></li>
+            </ul>
+        </nav>
+        <div class="hero-content">
+            <h1>Professional Website Design & Development Services</h1>
+            <p>We create stunning, user-friendly websites that captivate your audience and drive results. Our team of expert designers and developers work closely with you to bring your vision to life, ensuring a seamless blend of aesthetics and functionality.</p>
+            <a href="#" class="btn">Get Started</a>
+            </div>
+           <div class="image-hero">
+            <img src="logo.webp" alt="">
+           </div>
+    
+    </div>
+
+    <script>
+        let menuList = document.getElementById("menuList");
+        menuList.style.maxHeight = "0px";
+
+        function toggleMenu() {
+            if (menuList.style.maxHeight == "0px") {
+                menuList.style.maxHeight = "200px";
+            } else {
+                menuList.style.maxHeight = "0px";
+            }
+        }
+    </script>
+    <script src="https://kit.fontawesome.com/98db174248.js" crossorigin="anonymous"></script>
+
+</body>
+</html>
