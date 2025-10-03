@@ -128,8 +128,17 @@ nav ul li a:hover{
      .menu-icon{
         display: block;
     }
+     .image-hero img{
+       width: 400px;
+       display: flex;
+       align-items: center;
+       jusrify-content: center;
+       object-fit: cover;
+       margin: auto
+     }
 
     }
+
 
 
 
