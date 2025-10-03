@@ -129,12 +129,13 @@ nav ul li a:hover{
         display: block;
     }
      .image-hero img{
-      
+       width: 800px;
        object-fit: cover;
        margin: auto
      }
 
     }
+
 
 
 
