@@ -73,7 +73,7 @@ nav ul li a:hover{
     background-color: #e63600;
 }
  .image-hero img{  
-    width: 400px;
+    width: 800px;
     display: flex;
     align-items: center;
     jusrify-content: center;
@@ -129,15 +129,13 @@ nav ul li a:hover{
         display: block;
     }
      .image-hero img{
-       width: 400px;
-       display: flex;
-       align-items: center;
-       jusrify-content: center;
+      
        object-fit: cover;
        margin: auto
      }
 
     }
+
 
 
 
